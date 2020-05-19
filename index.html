@@ -4,37 +4,31 @@
 	 <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<title>Will you marry me?</title>
 	<style>
 		h1{
 			color: red;
-			font-size: 110px;
+			font-size: 70px;
 			text-align: center;
 		}
-		#tia{
-			color:  #1aff1a;
-		}
-		button{
-			width: 190px;
-			height: 90px;
-			margin-left: 340px; 
-			border-radius: 3px;
-			font-size: 30px;
-			font-weight: bold;
-		}
-		#yes{
-			background-color:  #3385ff;
-		}
-		#of{
-			background-color: #1affff;
-		}
+
 	</style>
 </head>
 <body>
-	
-		<h1 id="demo">Will you be my life partner? <span id="tia">&#10084;&#10084;&#10084;</span></h1>
-		<button id="yes" onclick="myFunc()">Yes</button>
-		<button id="of" onclick="myFunc2()">Yes of Course</button>
+		
+		<div class="container mt-4">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h1 id="demo">Will you be my life partner? <span id="tia">&#10084;&#10084;&#10084;</span></h1> <br /><br />
+					<div class="text-center">
+						<button id="yes" onclick="myFunc()" class="btn btn-info btn-lg">Yes</button>
+						<button id="of" onclick="myFunc2()" class="btn btn-danger btn-lg">Yes of Course</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 
 
 
